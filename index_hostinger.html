@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Primer Video Inmobiliario Viral | COPOLO</title>
+    <meta name="description" content="El sistema que usan los agentes que dominan su zona para conseguir más consultas y captar más exclusivas en 24 horas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Real-time notifications -->
+    <div id="sales-notification" class="notification hidden">
+        <div class="notif-img">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        </div>
+        <div class="notif-content">
+            <p class="notif-name"><span id="buyer-name">Juan P.</span> de <span id="buyer-location">Madrid</span></p>
+            <p class="notif-action">Acaba de comprar el curso</p>
+            <p class="notif-time">hace <span id="buyer-time">2</span> minutos</p>
+        </div>
+    </div>
+
+    <!-- SECCIÓN 1 — HERO -->
+    <section class="hero-section" id="hero">
+        <div class="hero-bg-glow glow-cyan"></div>
+        <div class="hero-bg-glow glow-orange"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="pre-headline fade-up">
+                    <span class="live-dot"></span>
+                    🏠 PARA AGENTES INMOBILIARIOS DE ARGENTINA, LATAM Y ESPAÑA
+                </div>
+                
+                <h1 class="headline fade-up">
+                    Tu primer video inmobiliario viral<br>
+                    en menos de <span class="text-orange highlight">24 horas</span><br>
+                    usando IA (<span class="text-orange">sin cámara</span>, sin editar, sin aparecer)
+                </h1>
+                
+                <p class="subheadline fade-up">
+                    El sistema que usan los agentes que <span class="text-orange text-bold">dominan su zona</span> para conseguir más consultas, captar más exclusivas y dejar de ser el secreto mejor guardado de su barrio.
+                </p>
+                
+                <div class="cta-wrapper fade-up">
+                    <a href="#checkout" class="btn-primary cta-pulse">
+                        👉 QUIERO MI PRIMER VIDEO VIRAL — USD 23
+                        <div class="btn-shine"></div>
+                    </a>
+                    <div class="micro-trust">
+                        <div class="trust-item"><span class="check">✓</span> Acceso inmediato</div>
+                        <div class="trust-item"><span class="check">✓</span> Pago único</div>
+                        <div class="trust-item"><span class="check">✓</span> Garantía 7 días</div>
+                    </div>
+                </div>
+                
+                <div class="hero-media fade-up float-anim">
+                    <div class="video-mockup">
+                        <div class="mockup-frame">
+                            <img src="hero_video.png" alt="Antes y Después con IA" class="video-img">
+                            <div class="play-overlay">
+                                <div class="play-btn-circle">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2 — DOLORES -->
+    <section class="dolores-section section-padding" id="dolores">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>¿Te suena familiar alguna de estas situaciones?</h2>
+                <p class="subtitle">Si asentís con la cabeza en aunque sea 2 de estas, esta página es para vos.</p>
+            </div>
+            
+            <div class="dolores-grid">
+                <div class="card dolor-card fade-up">
+                    <div class="card-icon">🕐</div>
+                    <div class="card-text">
+                        <h3>"Pierdo 4 horas editando un video que después tiene 10 vistas."</h3>
+                        <p>Te frustra ver cómo el tiempo que tendrías que estar usando para cerrar ventas se te va frente a CapCut.</p>
+                    </div>
+                </div>
+                
+                <div class="card dolor-card fade-up">
+                    <div class="card-icon">👻</div>
+                    <div class="card-text">
+                        <h3>"Siento que soy un agente secreto en mi propia ciudad."</h3>
+                        <p>Tenés propiedades increíbles, pero el algoritmo te ignora y nadie las ve.</p>
+                    </div>
+                </div>
+                
+                <div class="card dolor-card fade-up">
+                    <div class="card-icon">💸</div>
+                    <div class="card-text">
+                        <h3>"Le regalo plata todos los meses a los portales y agencias."</h3>
+                        <p>Pagás fortunas por leads que solo curiosean y nunca compran.</p>
+                    </div>
+                </div>
+                
+                <div class="card dolor-card fade-up">
+                    <div class="card-icon">📱</div>
+                    <div class="card-text">
+                        <h3>"Veo a chicos de 20 años con menos experiencia haciéndose virales."</h3>
+                        <p>Sabés vender mejor que ellos, pero ellos dominan el video y vos no.</p>
+                    </div>
+                </div>
+                
+                <div class="card dolor-card fade-up">
+                    <div class="card-icon">🎬</div>
+                    <div class="card-text">
+                        <h3>"Pensé que necesitaba cámara profesional y editor para hacer videos buenos."</h3>
+                        <p>Te dijeron que era complicado para que dependas de ellos. Mentira.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3 — TRANSICIÓN -->
+    <section class="transicion-section section-padding" id="transicion">
+        <div class="container">
+            <div class="transicion-content fade-up">
+                <h2 class="giant-text">
+                    ¿Y qué pasaría si pudieras...<br><br>
+                    Convertir una sola foto de una propiedad en un video cinematográfico que <span class="text-orange">detenga el scroll</span>, en <span class="text-cyan">60 segundos</span>, sin tocar una cámara, sin editar, sin aparecer en pantalla?<br><br>
+                    <span class="text-white">Eso es exactamente lo que vas a aprender hoy.</span>
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 4 — BENEFICIOS -->
+    <section class="beneficios-section section-padding" id="beneficios">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Esto es lo que va a cambiar en tu negocio inmobiliario desde mañana</h2>
+            </div>
+            
+            <div class="beneficios-grid">
+                <div class="beneficio-item fade-up">
+                    <div class="b-icon">📈</div>
+                    <div class="b-text">
+                        <h4>Más consultas entrantes cada semana</h4>
+                        <p>Videos que detienen el scroll = más mensajes en tu WhatsApp.</p>
+                    </div>
+                </div>
+                
+                <div class="beneficio-item fade-up">
+                    <div class="b-icon">🏆</div>
+                    <div class="b-text">
+                        <h4>Te conviertes en el referente de tu zona</h4>
+                        <p>Los propietarios te van a buscar a vos antes que a la competencia.</p>
+                    </div>
+                </div>
+                
+                <div class="beneficio-item fade-up">
+                    <div class="b-icon">⏱️</div>
+                    <div class="b-text">
+                        <h4>De 4 horas a 60 segundos por video</h4>
+                        <p>Recuperás el tiempo para cerrar ventas, no para editar.</p>
+                    </div>
+                </div>
+                
+                <div class="beneficio-item fade-up">
+                    <div class="b-icon">🎯</div>
+                    <div class="b-text">
+                        <h4>Captás propietarios sin depender de portales</h4>
+                        <p>Dejás de pagarle fortunas a Idealista, Zonaprop o Inmuebles24.</p>
+                    </div>
+                </div>
+                
+                <div class="beneficio-item fade-up">
+                    <div class="b-icon">📱</div>
+                    <div class="b-text">
+                        <h4>Funciona aunque odies salir frente a la cámara</h4>
+                        <p>La IA hace el video por vos. No tenés que aparecer.</p>
+                    </div>
+                </div>
+                
+                <div class="beneficio-item fade-up">
+                    <div class="b-icon">💼</div>
+                    <div class="b-text">
+                        <h4>Servís igual aunque tu propiedad sea común</h4>
+                        <p>La IA hace que un departamento normal se vea espectacular.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 5 — PRESENTACIÓN -->
+    <section class="producto-section section-padding" id="producto">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Te presento el método: Videos Inmobiliarios con IA</h2>
+                <p class="subtitle">El curso paso a paso que te lleva de cero a tu primer video viral en menos de 24 horas. Pensado para agentes que quieren vender, no para gente que quiere ser cineasta.</p>
+            </div>
+            
+            <div class="producto-layout">
+                <div class="producto-mockup float-anim fade-up">
+                    <img src="course_box.png" alt="Curso de Videos Inmobiliarios con IA" class="box-3d">
+                </div>
+                
+                <div class="producto-modulos fade-up">
+                    <div class="modulo-item">
+                        <div class="m-num">1</div>
+                        <div class="m-text">Configuración rápida: las 2 herramientas de IA que necesitás (sin tarjeta de crédito)</div>
+                    </div>
+                    <div class="modulo-item">
+                        <div class="m-num">2</div>
+                        <div class="m-text">El sistema "Foto → Prompt → Video Viral" en 60 segundos</div>
+                    </div>
+                    <div class="modulo-item">
+                        <div class="m-num">3</div>
+                        <div class="m-text">Cómo escribir prompts que generan videos cinematográficos (aunque no sepas inglés)</div>
+                    </div>
+                    <div class="modulo-item">
+                        <div class="m-num">4</div>
+                        <div class="m-text">El framework de 3 ángulos visuales que más consultas generan en inmobiliario</div>
+                    </div>
+                    <div class="modulo-item">
+                        <div class="m-num">5</div>
+                        <div class="m-text">Cómo subir, etiquetar y promocionar tu video para que el algoritmo lo viralice</div>
+                    </div>
+                    <div class="modulo-item">
+                        <div class="m-num">6</div>
+                        <div class="m-text">Plantillas de respuesta de WhatsApp para convertir vistas en visitas a la propiedad</div>
+                    </div>
+                    
+                    <div class="bullet-list mt-4">
+                        <div class="bullet"><span class="check">✓</span> Acceso de por vida</div>
+                        <div class="bullet"><span class="check">✓</span> Actualizaciones gratis cuando salgan nuevas IAs</div>
+                        <div class="bullet"><span class="check">✓</span> Certificado al finalizar</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="urgency-cta-wrapper fade-up mt-4 text-center" style="margin-top: 50px; padding-top: 40px; border-top: 1px solid var(--border-color);">
+                <div class="discount-badge" style="display: inline-block; background: var(--accent-orange); color: white; padding: 5px 15px; border-radius: 20px; font-weight: 800; font-size: 0.9rem; margin-bottom: 15px; letter-spacing: 1px;">¡75% DE DESCUENTO HOY!</div>
+                <div class="countdown-timer" style="margin-bottom: 25px; color: var(--text-secondary); font-size: 1.1rem;">
+                    <span>⏳ La oferta termina en: </span>
+                    <span class="timer-display text-orange" style="font-weight: 800; font-variant-numeric: tabular-nums; font-size: 1.3rem;">14:59</span>
+                </div>
+                <a href="#checkout" class="btn-primary cta-pulse" style="width: 100%; max-width: 450px; margin: 0 auto; display: block; font-size: 1.1rem; padding: 18px 20px;">
+                    👉 SÍ, QUIERO EL CURSO POR USD 23
+                    <div class="btn-shine"></div>
+                </a>
+                <div class="micro-trust" style="display: flex; gap: 15px; margin-top: 15px; justify-content: center; font-size: 0.9rem; color: var(--text-secondary);">
+                    <div class="trust-item"><span class="check">✓</span> Pago único</div>
+                    <div class="trust-item"><span class="check">✓</span> Garantía 7 días</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 6 — BONUS -->
+    <section class="bonus-section section-padding" id="bonus">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>🎁 Y si compras hoy, te llevás GRATIS estos 2 bonus:</h2>
+            </div>
+            
+            <div class="bonus-grid">
+                <div class="card bonus-card fade-up">
+                    <div class="bonus-img">
+                        <img src="bonus_prompts.png" alt="50 Prompts Virales">
+                    </div>
+                    <div class="bonus-content">
+                        <h3>🎬 50 Prompts Virales con Paso a Paso</h3>
+                        <div class="price-tag">
+                            <span class="old-price">Valor: USD 47</span>
+                            <span class="free-badge">GRATIS hoy</span>
+                        </div>
+                        <p>Los 50 prompts exactos que están generando los videos inmobiliarios más virales de Argentina, México y España. Copiás, pegás, cambiás los datos de tu propiedad y listo. Cada prompt viene con: estilo visual, ángulo de cámara, y el tipo de propiedad para el que mejor funciona.</p>
+                    </div>
+                </div>
+                
+                <div class="card bonus-card fade-up" style="animation-delay: 0.2s;">
+                    <div class="bonus-img flex-center bg-dark-gradient">
+                        <div class="ai-logo-mockup">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1 0 10 10H12V2z"></path><path d="M12 12 2.1 7.1"></path><path d="m12 12 9.9 4.9"></path></svg>
+                        </div>
+                        <div class="sello-gratis">INCLUIDO</div>
+                    </div>
+                    <div class="bonus-content">
+                        <h3>🤖 Acceso Premium a Herramienta de IA</h3>
+                        <div class="price-tag">
+                            <span class="old-price">Valor: USD 30/mes</span>
+                            <span class="free-badge">GRATIS incluido</span>
+                        </div>
+                        <p>Acceso a la herramienta de IA premium que usamos para generar los videos del curso. Sin suscripción mensual, sin tarjeta de crédito, sin límites por los primeros 30 días. Empezás a generar videos desde el minuto 1.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bonus-summary fade-up">
+                <h3>💰 Valor total de lo que te llevás: <span class="strike">USD 100</span></h3>
+                <h2 class="price-today">Precio hoy: <span class="text-orange">USD 23</span></h2>
+                
+                <div class="urgency-cta-wrapper mt-4 text-center" style="margin-top: 30px;">
+                    <div class="discount-badge" style="display: inline-block; background: var(--accent-orange); color: white; padding: 5px 15px; border-radius: 20px; font-weight: 800; font-size: 0.9rem; margin-bottom: 15px; letter-spacing: 1px;">¡75% DE DESCUENTO HOY!</div>
+                    <div class="countdown-timer" style="margin-bottom: 25px; color: var(--text-secondary); font-size: 1.1rem;">
+                        <span>⏳ La oferta termina en: </span>
+                        <span class="timer-display text-orange" style="font-weight: 800; font-variant-numeric: tabular-nums; font-size: 1.3rem;">14:59</span>
+                    </div>
+                    <a href="#checkout" class="btn-primary cta-pulse" style="width: 100%; max-width: 450px; margin: 0 auto; display: block; font-size: 1.1rem; padding: 18px 20px;">
+                        👉 SÍ, QUIERO LOS BONUS Y EL CURSO
+                        <div class="btn-shine"></div>
+                    </a>
+                    <div class="micro-trust" style="display: flex; gap: 15px; margin-top: 15px; justify-content: center; font-size: 0.9rem; color: var(--text-secondary);">
+                        <div class="trust-item"><span class="check">✓</span> Pago único</div>
+                        <div class="trust-item"><span class="check">✓</span> Garantía 7 días</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 7 — TESTIMONIOS -->
+    <section class="testimonios-section section-padding" id="testimonios">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Lo que dicen agentes que ya están usando el método</h2>
+            </div>
+            
+            <div class="testimonio-grid">
+                <div class="card testimonio-card fade-up">
+                    <div class="t-header">
+                        <div class="t-avatar bg-gradient-1">MG</div>
+                        <div class="t-info">
+                            <h4>Martín G.</h4>
+                            <span>Córdoba, Argentina</span>
+                        </div>
+                        <div class="t-stars">★★★★★</div>
+                    </div>
+                    <p class="t-quote">"En la primera semana subí 3 videos hechos con IA y conseguí 14 consultas nuevas. Antes con los portales tenía que pagar 200 dólares para conseguir esa cantidad."</p>
+                    <div class="t-result">🟧 +14 consultas en 7 días</div>
+                </div>
+                
+                <div class="card testimonio-card fade-up">
+                    <div class="t-header">
+                        <div class="t-avatar bg-gradient-2">LF</div>
+                        <div class="t-info">
+                            <h4>Laura F.</h4>
+                            <span>Madrid, España</span>
+                        </div>
+                        <div class="t-stars">★★★★★</div>
+                    </div>
+                    <p class="t-quote">"Tengo 52 años y pensé que esto no era para mí. En 2 días subí mi primer video y captó una propiedad de USD 280.000. La comisión pagó el curso 1.000 veces."</p>
+                    <div class="t-result">🟧 Captó exclusiva de USD 280.000</div>
+                </div>
+                
+                <div class="card testimonio-card fade-up">
+                    <div class="t-header">
+                        <div class="t-avatar bg-gradient-3">CM</div>
+                        <div class="t-info">
+                            <h4>Carlos M.</h4>
+                            <span>CDMX, México</span>
+                        </div>
+                        <div class="t-stars">★★★★★</div>
+                    </div>
+                    <p class="t-quote">"Lo mejor: dejé de pelearme con CapCut. Ahora hago en 5 minutos lo que antes me llevaba media tarde."</p>
+                    <div class="t-result">🟧 De 4 horas a 5 minutos por video</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 8 — GARANTÍA -->
+    <section class="garantia-section section-padding" id="garantia">
+        <div class="container">
+            <div class="card garantia-card fade-up">
+                <div class="g-icon float-anim">🛡️</div>
+                <div class="g-content">
+                    <h2>Garantía de 7 días o te devuelvo cada centavo</h2>
+                    <p>Probá el curso completo durante 7 días. Mirá los módulos, descargá los 50 prompts, generá tu primer video. Si por cualquier motivo sentís que no era para vos, me escribís y te devuelvo los USD 23 sin preguntas, sin formularios, sin vueltas.</p>
+                    <p class="text-orange text-bold mt-2">El riesgo lo asumo yo. Vos solo tenés que probarlo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 9 — FAQ -->
+    <section class="faq-section section-padding" id="faq">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Preguntas que me hacen todos los días</h2>
+            </div>
+            
+            <div class="faq-accordion fade-up">
+                <div class="faq-item">
+                    <button class="faq-btn">"¿Sirve si tengo 50 años y no soy bueno con la tecnología?" <span class="icon">+</span></button>
+                    <div class="faq-content">
+                        <p>Sí. Si sabés mandar un mensaje por WhatsApp, sabés usar este método. El curso está diseñado específicamente para agentes que NO son nativos digitales. Todo es paso a paso, con video, y los prompts son copiar y pegar.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn">"¿Necesito comprar alguna herramienta extra?" <span class="icon">+</span></button>
+                    <div class="faq-content">
+                        <p>No. El acceso premium a la herramienta de IA viene incluido como bonus. No necesitás cámara, editor, software de pago ni nada más.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn">"¿Cuánto tiempo me lleva ver resultados?" <span class="icon">+</span></button>
+                    <div class="faq-content">
+                        <p>Tu primer video lo tenés listo en menos de 24 horas (de hecho, en 60 segundos una vez que sigas el sistema). Las consultas empiezan a llegar cuando lo subís bien etiquetado, lo que enseñamos en el módulo 5.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn">"¿Esto sirve para propiedades comunes o solo para casas de lujo?" <span class="icon">+</span></button>
+                    <div class="faq-content">
+                        <p>Funciona MEJOR con propiedades comunes. La IA es justamente la herramienta que hace que un departamento estándar se vea espectacular. Si tu casa ya es una mansión, casi no la necesitás.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn">"¿Tengo que aparecer en pantalla?" <span class="icon">+</span></button>
+                    <div class="faq-content">
+                        <p>No. La IA genera el video sin que vos aparezcas. Ideal si te da vergüenza la cámara o no querés mostrarte.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn">"¿Funciona en mi país?" <span class="icon">+</span></button>
+                    <div class="faq-content">
+                        <p>Sí. El curso está validado en Argentina, México, Colombia, España y Chile. La IA y los prompts son universales.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn">"¿Es de por vida o tengo que pagar mensual?" <span class="icon">+</span></button>
+                    <div class="faq-content">
+                        <p>Pago único de USD 23. De por vida. Sin suscripciones, sin renovaciones, sin sorpresas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn">"¿Cómo recibo el curso?" <span class="icon">+</span></button>
+                    <div class="faq-content">
+                        <p>Apenas pagás, te llega un mail con el acceso a la plataforma. Entrás y empezás. Demora menos de 2 minutos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 10 — CTA FINAL -->
+    <section class="cta-final-section section-padding" id="checkout">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Última oportunidad de dejar de ser un agente secreto</h2>
+                <p class="subtitle">Mientras dudás, otro agente de tu zona ya está aprendiendo esto.</p>
+            </div>
+            
+            <div class="card checkout-card fade-up">
+                <div class="checkout-recap">
+                    <ul>
+                        <li><span class="check">✅</span> Curso completo de Videos Inmobiliarios con IA</li>
+                        <li><span class="check">✅</span> <b>BONUS:</b> 50 prompts virales con paso a paso</li>
+                        <li><span class="check">✅</span> <b>BONUS:</b> Acceso premium a herramienta de IA incluido</li>
+                        <li><span class="check">✅</span> Acceso de por vida + actualizaciones gratis</li>
+                        <li><span class="check">✅</span> Garantía de 7 días sin preguntas</li>
+                    </ul>
+                    <div class="price-box">
+                        <div class="val-total">Valor total: USD 100</div>
+                        <div class="val-hoy">Hoy: <span class="text-orange">USD 23</span> <span class="small-text">— Pago único</span></div>
+                    </div>
+                </div>
+                
+                <div class="checkout-action">
+                    <a href="https://shopify.com/checkout/..." class="btn-primary btn-giant cta-pulse">
+                        👉 EMPEZAR HOY POR USD 23
+                        <div class="btn-shine"></div>
+                    </a>
+                    
+                    <div class="trust-signals">
+                        <span>🔒 Pago seguro vía Shopify</span>
+                        <span>💳 Tarjeta o Mercado Pago</span>
+                        <span>⚡ Acceso inmediato</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="posdata fade-up text-center mt-4">
+                <p><b>PD:</b> A USD 23, esto es menos de lo que te cuesta una pizza con bebida un viernes a la noche. Y a diferencia de la pizza, esto te puede generar la próxima comisión de 5 cifras. Decidí.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 COPOLO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
