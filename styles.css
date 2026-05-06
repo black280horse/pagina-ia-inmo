@@ -9,7 +9,7 @@
     --text-secondary: #a3a3a3;
     --success-green: #10b981;
     --font-main: 'DM Sans', sans-serif;
-    --font-display: 'Syne', sans-serif;
+    --font-display: 'Clash Display', sans-serif;
 }
 
 * {
@@ -907,6 +907,7 @@ footer {
 /* --- PREMIUM TYPOGRAPHY & LAYOUT --- */
 h1, h2, h3, h4, .headline, .giant-text, .product-title {
     font-family: var(--font-display);
+    letter-spacing: -0.03em;
 }
 
 .text-gradient-orange {
