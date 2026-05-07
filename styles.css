@@ -9,7 +9,7 @@
     --text-secondary: #a3a3a3;
     --success-green: #10b981;
     --font-main: 'DM Sans', sans-serif;
-    --font-display: 'Clash Display', sans-serif;
+    --font-display: 'Montserrat', sans-serif;
 }
 
 * {
@@ -68,12 +68,12 @@ h1, h2, h3, h4 {
 }
 
 .section-header h2 {
-    font-size: clamp(2.5rem, 5vw, 3.8rem);
+    font-size: clamp(2rem, 4vw, 2.8rem);
     font-weight: 800;
     line-height: 1;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.01em;
     margin-bottom: 20px;
-    text-transform: uppercase;
+    
 }
 
 .subtitle {
@@ -141,7 +141,7 @@ h1, h2, h3, h4 {
     border-radius: 8px;
     font-size: 1.1rem;
     font-weight: 700;
-    text-transform: uppercase;
+    
     letter-spacing: 0.5px;
     text-decoration: none;
     box-shadow: 0 10px 25px rgba(232, 93, 4, 0.4);
@@ -302,7 +302,7 @@ h1, h2, h3, h4 {
     font-size: 0.85rem;
     font-weight: 600;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    
     color: var(--text-secondary);
     background: rgba(255,255,255,0.05);
     padding: 8px 16px;
@@ -438,7 +438,7 @@ h1, h2, h3, h4 {
 .card-text h3 {
     font-size: 1.5rem;
     font-weight: 800;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.01em;
     line-height: 1.1;
 }
 
@@ -502,7 +502,7 @@ h1, h2, h3, h4 {
 .b-text h4 {
     font-size: 1.4rem;
     font-weight: 800;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.01em;
     margin-bottom: 8px;
     line-height: 1.1;
 }
@@ -640,7 +640,7 @@ h1, h2, h3, h4 {
 .bonus-content h3 {
     font-size: 1.7rem;
     font-weight: 800;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.01em;
     line-height: 1.1;
     margin-bottom: 15px;
 }
@@ -711,7 +711,7 @@ h1, h2, h3, h4 {
 .bg-gradient-2 { background: linear-gradient(135deg, #4facfe, #00f2fe); }
 .bg-gradient-3 { background: linear-gradient(135deg, #43e97b, #38f9d7); }
 
-.t-info h4 { margin: 0; font-size: 1.3rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+.t-info h4 { margin: 0; font-size: 1.3rem; font-weight: 800; letter-spacing: -0.01em; line-height: 1.1; }
 .t-info span { color: var(--text-secondary); font-size: 0.95rem; }
 
 .t-stars { color: #f1c40f; letter-spacing: 2px; }
@@ -749,12 +749,12 @@ h1, h2, h3, h4 {
 
 .g-content h2 { 
     color: var(--accent-orange); 
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
     font-weight: 800;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.01em;
     line-height: 1.05;
     margin-bottom: 20px;
-    text-transform: uppercase;
+    
 }
 
 /* FAQ SECTION */
@@ -781,7 +781,7 @@ h1, h2, h3, h4 {
     font-size: 1.25rem;
     font-weight: 800;
     font-family: var(--font-display);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -941,7 +941,7 @@ footer {
 /* --- PREMIUM TYPOGRAPHY & LAYOUT --- */
 h1, h2, h3, h4, .headline, .giant-text, .product-title {
     font-family: var(--font-display);
-    letter-spacing: -0.04em;
+    letter-spacing: -0.01em;
     line-height: 1.1;
 }
 
@@ -970,12 +970,12 @@ h1, h2, h3, h4, .headline, .giant-text, .product-title {
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-size: clamp(2rem, 5vw, 3.2rem);
 }
-.hl-line-1 { font-size: 0.5em; font-weight: 600; letter-spacing: -0.02em; color: #f0f0f0; }
-.hl-line-2 { font-size: 1.2em; font-weight: 800; line-height: 0.95; letter-spacing: -0.05em; text-transform: uppercase; }
-.hl-line-3 { font-size: 0.7em; font-weight: 700; color: white; letter-spacing: -0.03em; }
-.hl-line-4 { font-size: 0.25em; font-family: var(--font-main); color: var(--text-secondary); text-transform: uppercase; letter-spacing: 4px; margin-top: 25px; font-weight: 600; }
+.hl-line-1 { font-size: 0.5em; font-weight: 600; letter-spacing: -0.01em; color: #f0f0f0; }
+.hl-line-2 { font-size: 1.2em; font-weight: 800; line-height: 0.95; letter-spacing: -0.01em;  }
+.hl-line-3 { font-size: 0.7em; font-weight: 700; color: white; letter-spacing: -0.01em; }
+.hl-line-4 { font-size: 0.25em; font-family: var(--font-main); color: var(--text-secondary);  letter-spacing: 4px; margin-top: 25px; font-weight: 600; }
 
 /* TRANSICIÓN GIANT TEXT */
 .giant-text {
@@ -987,21 +987,21 @@ h1, h2, h3, h4, .headline, .giant-text, .product-title {
     margin: 0 auto;
     border-left: 6px solid var(--accent-orange);
     padding-left: 50px;
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
 }
-.gt-1 { font-size: 0.7em; font-weight: 600; color: #f0f0f0; line-height: 1.1; letter-spacing: -0.02em; }
-.gt-2 { font-size: 1.1em; font-weight: 800; line-height: 0.95; text-transform: uppercase; margin-bottom: 10px; letter-spacing: -0.04em; }
-.gt-3 { font-size: 0.85em; font-weight: 800; letter-spacing: -0.03em; }
-.gt-4 { font-size: 0.35em; font-family: var(--font-main); color: var(--text-secondary); letter-spacing: 3px; text-transform: uppercase; margin: 25px 0 15px; font-weight: 600; }
+.gt-1 { font-size: 0.7em; font-weight: 600; color: #f0f0f0; line-height: 1.1; letter-spacing: -0.01em; }
+.gt-2 { font-size: 1.1em; font-weight: 800; line-height: 0.95;  margin-bottom: 10px; letter-spacing: -0.01em; }
+.gt-3 { font-size: 0.85em; font-weight: 800; letter-spacing: -0.01em; }
+.gt-4 { font-size: 0.35em; font-family: var(--font-main); color: var(--text-secondary); letter-spacing: 3px;  margin: 25px 0 15px; font-weight: 600; }
 .gt-5 { font-size: 0.4em; color: white; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 25px; font-weight: 500; }
 
 /* PRODUCT PRESENTATION */
 .align-left { text-align: left; max-width: 700px; margin-left: 0; }
-.eyebrow { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 3px; color: var(--text-secondary); margin-bottom: 25px; display: inline-block; border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 8px; font-family: var(--font-main); font-weight: 600; }
-.product-title { font-size: clamp(3rem, 7vw, 4.5rem); font-weight: 800; line-height: 0.95; margin-bottom: 25px; letter-spacing: -0.05em; text-transform: uppercase; }
-.product-subtitle { font-size: clamp(1.4rem, 3vw, 2rem); color: white; margin-bottom: 25px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.2; }
+.eyebrow { font-size: 0.85rem;  letter-spacing: 3px; color: var(--text-secondary); margin-bottom: 25px; display: inline-block; border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 8px; font-family: var(--font-main); font-weight: 600; }
+.product-title { font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 800; line-height: 0.95; margin-bottom: 25px; letter-spacing: -0.01em;  }
+.product-subtitle { font-size: clamp(1.4rem, 3vw, 2rem); color: white; margin-bottom: 25px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.2; }
 .product-desc { font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 25px; font-family: var(--font-main); }
-.product-tag { background: rgba(232, 93, 4, 0.1); border: 1px solid rgba(232, 93, 4, 0.3); color: var(--accent-orange); display: inline-block; padding: 8px 16px; border-radius: 4px; font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-family: var(--font-main); }
+.product-tag { background: rgba(232, 93, 4, 0.1); border: 1px solid rgba(232, 93, 4, 0.3); color: var(--accent-orange); display: inline-block; padding: 8px 16px; border-radius: 4px; font-weight: 700; font-size: 0.9rem;  letter-spacing: 1px; font-family: var(--font-main); }
 
 /* PREMIUM CHECKOUT BOX */
 .checkout-grid {
@@ -1085,7 +1085,7 @@ h1, h2, h3, h4, .headline, .giant-text, .product-title {
     font-weight: 800;
     font-family: var(--font-display);
     text-decoration: none;
-    text-transform: uppercase;
+    
     position: relative;
     overflow: hidden;
     transition: transform 0.3s;
