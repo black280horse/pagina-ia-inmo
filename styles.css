@@ -1122,9 +1122,75 @@ h1, h2, h3, h4, .headline, .giant-text, .product-title {
     color: var(--accent-orange);
 }
 
+/* --- STRICT MOBILE OPTIMIZATIONS --- */
 @media (max-width: 992px) {
     .checkout-grid { grid-template-columns: 1fr; }
-    .giant-text { padding-left: 20px; border-left-width: 2px; }
+    .giant-text { padding-left: 20px; border-left-width: 4px; }
     .checkout-action-box { border-left: none; border-top: 1px solid rgba(232, 93, 4, 0.2); }
     .checkout-benefits { padding: 30px 20px; }
+    .producto-layout { grid-template-columns: 1fr; gap: 30px; }
+}
+
+@media (max-width: 768px) {
+    /* Spacing */
+    .section-padding { padding: 60px 0 !important; }
+    .section-header { margin-bottom: 40px; }
+    
+    /* Layouts */
+    .align-left { text-align: center; margin: 0 auto; }
+    .eyebrow { margin-bottom: 15px; }
+    
+    /* Giant text transition */
+    .giant-text {
+        border-left: none;
+        border-top: 4px solid var(--accent-orange);
+        padding-left: 0;
+        padding-top: 30px;
+        text-align: center;
+        gap: 12px;
+    }
+    
+    /* Benefits grid */
+    .beneficio-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 15px;
+    }
+    
+    /* Product grid adjustments */
+    .box-3d { max-width: 300px; }
+    .modulo-item {
+        flex-direction: column;
+        align-items: flex-start;
+        border-left: none;
+        border-top: 3px solid var(--accent-orange);
+        padding-top: 20px;
+    }
+    .m-num { margin-bottom: 10px; }
+    
+    /* Buttons */
+    .btn-primary, .btn-premium { width: 100%; font-size: 1.1rem; padding: 15px 10px; }
+    .btn-giant { width: 100%; font-size: 1.1rem; padding: 20px 10px; }
+    .discount-badge-premium { font-size: 1rem; padding: 6px 15px; }
+    
+    /* Guarantee box */
+    .garantia-card { flex-direction: column; padding: 30px 20px; text-align: center; gap: 20px; }
+    .g-icon { font-size: 4rem; }
+    
+    /* Bonus */
+    .bonus-card { text-align: center; }
+    .price-tag { justify-content: center; flex-direction: column; gap: 5px; }
+    .bonus-img { height: 200px; }
+    .bonus-summary { padding: 25px 15px; }
+    
+    /* Testimonials */
+    .t-header { flex-direction: column; text-align: center; gap: 10px; }
+    .t-quote { text-align: center; }
+    
+    /* FAQ */
+    .faq-btn { padding: 15px; font-size: 1.1rem; flex-direction: column; gap: 10px; text-align: center; }
+    .faq-btn .icon { align-self: center; }
+    .faq-content p { padding: 15px; font-size: 1rem; text-align: center; }
 }
